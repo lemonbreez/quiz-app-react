@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.Questions{
+  margin: 0 auto;
+  background-color: #fddfdf;
+  padding: 16px;
+  border-radius:16px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  width: 80%;
+  height: auto;
+}
+
+ul {
+  list-style:none;
+
+}
+
+li{
+padding: 10px;
+margin-top: 8px;
+transition: background-color 0.3s ease; 
+}
+
+
+q-text{
+  color: pink
+
+}
+
+final-result{
+ margin: 0;
+ background-color: white ;
+ padding: 16px;
+ border-radius: 16px; 
+ color: pink ;  
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ width: 50%;
+ height: auto;
+ 
+}
