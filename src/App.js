@@ -6,32 +6,33 @@ function App() {
   const [showFinalResults, setShowFinalResults] = useState(false);
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  
   const questions = [
     {
       text: "الرجاء اختيار اكثر قطعة فنية جذبتك",
       options: [
-        { id: 0, image: "/1.jpeg" },
-        { id: 1, image: "/2.jpeg" },
-        { id: 2, image: "/3.jpeg" },
-        { id: 3, image: "/4.jpeg" },
+        { id: 0, image: require(".//1.jpeg")},
+        { id: 1, image: require(".//2.jpeg") },
+        { id: 2, image: require(".//3.jpeg") },
+        { id: 3, image: require(".//4.jpeg") },
       ],
     },
     {
       text: "اول صورة لفتت انتبهاك؟",
       options: [
-        { id: 0, image: "/00.jpeg" },
-        { id: 1, image: "/11.jpg" },
-        { id: 2, image: "/22.jpg" },
-        { id: 3, image: "/33.jpg" },
+        { id: 0, image: require(".//00.jpeg") },
+        { id: 1, image:require(".//11.jpeg") },
+        { id: 2, image:require(".//22.jpeg") },
+        { id: 3, image: require(".//33.jpeg") },
       ],
     },
     {
       text: "ايش احلى سجادة؟",
       options: [
-        { id: 0, image: "/000.jpeg" },
-        { id: 1, image: "/111.jpg" },
-        { id: 2, image: "/222.jpg" },
-        { id: 3, image: "/333.jpg" },
+        { id: 0, image: require(".//000.jpeg") },
+        { id: 1, image: require(".//111.jpeg") },
+        { id: 2, image: require(".//222.jpeg" )},
+        { id: 3, image: require(".//333.jpeg") },
       ],
     },
     // Add more questions as needed
@@ -69,9 +70,10 @@ function App() {
           <ul>
             {selectedOptions.map((optionId, index) => (
               <li key={index}>{optionId}</li>
+              
             ))}
+            <p>سو سكرين شوت و ارسل لي !! </p>
           </ul>
-          <button onClick={() => setShowFinalResults(false)}>مجددا</button>
         </div>
       ) : (
         /* Cards */
@@ -85,6 +87,7 @@ function App() {
                     src={option.image}
                     alt={option.id}
                     onClick={() => handleImageClick(option.id)}
+                    style={{ width: "150px", height: "auto" }} // Adjust the width and height as needed
                   />
                 </li>
               );
