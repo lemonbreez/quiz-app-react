@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/meme-quiz-react/static/css/main.22bc603f.css",
+    "main.js": "/meme-quiz-react/static/js/main.9675ce17.js",
+    "static/media/111.jpeg": "/meme-quiz-react/static/media/111.94b3cb192306d85ad0b6.jpeg",
+    "static/media/000.jpeg": "/meme-quiz-react/static/media/000.031654e3c9c0f925e61f.jpeg",
+    "static/media/4.jpeg": "/meme-quiz-react/static/media/4.aeffe2fb35af5d1f76dd.jpeg",
+    "static/media/222.jpeg": "/meme-quiz-react/static/media/222.0155334d3b6b382f9808.jpeg",
+    "static/media/2.jpeg": "/meme-quiz-react/static/media/2.902bee20ea9980eea2f9.jpeg",
+    "static/media/3.jpeg": "/meme-quiz-react/static/media/3.03f826f8dcc47362917f.jpeg",
+    "static/media/33.jpeg": "/meme-quiz-react/static/media/33.6d0e648f6f24af64b358.jpeg",
+    "static/media/333.jpeg": "/meme-quiz-react/static/media/333.fb459d43fa8727b78d4c.jpeg",
+    "static/media/22.jpeg": "/meme-quiz-react/static/media/22.2ed9be7de7af0f9761fe.jpeg",
+    "static/media/1.jpeg": "/meme-quiz-react/static/media/1.a5b67c65275b6d72f1ac.jpeg",
+    "static/media/00.jpeg": "/meme-quiz-react/static/media/00.75757752995561d6934d.jpeg",
+    "index.html": "/meme-quiz-react/index.html",
+    "main.22bc603f.css.map": "/meme-quiz-react/static/css/main.22bc603f.css.map",
+    "main.9675ce17.js.map": "/meme-quiz-react/static/js/main.9675ce17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22bc603f.css",
+    "static/js/main.9675ce17.js"
+  ]
+}
