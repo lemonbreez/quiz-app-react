@@ -7,12 +7,12 @@ function NameInput() {
   const handleNameChange = (event) => {
     const enteredName = event.target.value.trim(); // Remove leading and trailing whitespaces
     setName(enteredName);
-    setIsValid(enteredName.toLowerCase() === 'محمد' || enteredName === '');
+    setIsValid(enteredName.toLowerCase() === '' || enteredName === '');
   };
 
   return (
     <div>
-      <label htmlFor="nameInput">قم بأدخال اسمك (هنت: اسم اكثر شخص تحبه ميمي) </label>
+      <label htmlFor="nameInput">قم بأدخال اسمك </label>
       <input
         type="text"
         id="nameInput"
